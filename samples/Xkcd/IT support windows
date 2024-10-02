@@ -1,0 +1,24 @@
+@{
+  GUID = '015d674a-6f59-4d6c-bdfd-da7e61d3ea5c'
+  RootModule = './Xkcd.psm1'
+  ModuleVersion = '0.1.0'
+  CompatiblePSEditions = 'Core', 'Desktop'
+  Author = ''
+  CompanyName = ''
+  Copyright = ''
+  Description = ''
+  PowerShellVersion = '5.1'
+  DotNetFrameworkVersion = '4.7.2'
+  RequiredAssemblies = './bin/Xkcd.private.dll'
+  FormatsToProcess = './Xkcd.format.ps1xml'
+  FunctionsToExport = 'Get-XkcdComic', '*'
+  AliasesToExport = '*'
+  PrivateData = @{
+    PSData = @{
+      Tags = ''
+      LicenseUri = ''
+      ProjectUri = ''
+      ReleaseNotes = ''
+    }
+  }
+}
